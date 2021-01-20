@@ -1,0 +1,28 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Libre Franklin', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/* header-section code start*/
+.header-section{
+	width: 100%;
+	background: url("../img/hero.png") center top no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.header-section .bg-light{
+	background: transparent !important;
+}
+.header-section .navbar-brand img{
+	width: 100px;
+}
